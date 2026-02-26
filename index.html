@@ -47,6 +47,45 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="seed3d1_0_stop()" onmouseover="seed3d1_0_start()" >
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='seed3d1_0_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/seed3d1_0.png" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/seed3d1_0.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function seed3d1_0_start() {
+            document.getElementById('seed3d1_0_image').style.opacity = "1";
+          }
+
+          function seed3d1_0_stop() {
+            document.getElementById('seed3d1_0_image').style.opacity = "0";
+          }
+          seed3d1_0_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2510.19944">
+          <span class="papertitle">seed3d1_0_stop: A novel slam method focused on transparent objects          </span>
+        </a>
+        <br>
+        <strong>Yifan Zhu</strong>,
+        <br>
+        <em>Technical Report</em>, 2025
+        <br>
+        <!-- <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
+        /
+        <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a> -->
+        <p></p>
+        <p>
+		<!-- By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation. -->
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="transfusion_stop()" onmouseover="transfution_start()" >
       <td style="padding:16px;width:20%;vertical-align:middle">
