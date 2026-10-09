@@ -25,7 +25,8 @@ class SiteTests(unittest.TestCase):
  def test_compact_homepage_content(self):
   s=render();self.assertEqual(s.count('<article '),6)
   self.assertLess(s.index("master's degree"),s.index('Selected research'))
-  self.assertIn('I work on 3D generation at ByteDance.',s)
+  self.assertIn('Now I work on 3D generation at ByteDance.',s)
+  self.assertIn('user=cYKCWKIAAAAJ&amp;hl=zh-CN',s)
   for phrase in ('From understanding the world','EARLIER &amp; ADDITIONAL WORK','My earlier work','<nav','mailto:','Long-Range Outdoor','Manufacturing Defects','Surface Defect Detection'):self.assertNotIn(phrase,s)
   self.assertIn('4og2ymo754zx7.png',s)
  def test_generated_html_is_current(self):self.assertEqual((ROOT/'index.html').read_text(),render())

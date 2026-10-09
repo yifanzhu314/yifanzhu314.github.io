@@ -32,3 +32,5 @@ Live at https://home.majortom314.com/ on the existing server. Five site tests an
 The introduction includes education and current 3D generation work. Navigation, contact buttons, research-direction slogans and additional-work lists are omitted. Seed3D 2.0 uses the cover image from the [official project page](https://seed.bytedance.com/zh/seed3d_2_0), served from the official image CDN; its availability depends on that source. The portrait is 112 pixels on desktop and smaller on phones.
 
 2026-10-10 compact release verified live: six site tests and both Site checks / Pages CI succeeded. Official cover image loaded, desktop portrait is 112px, phone portrait is 64px, and neither viewport overflowed horizontally. Server release: `compact-20261010`; previous release remains available for rollback.
+
+Biography wording updated on 2026-10-10: education precedes current work; Haiyong Chen links to the owner-supplied Google Scholar profile.
