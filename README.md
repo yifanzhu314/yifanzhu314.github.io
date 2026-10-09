@@ -22,3 +22,7 @@ Primary sources: [Seed3D 1.0](https://arxiv.org/abs/2510.19944), [Seed3D 2.0](ht
 The server serves an immutable release directory through Caddy at the configured homepage domain. Copy only `index.html`, `stylesheet.css`, and `images/`; no credentials, personal database or proxy subscription belong in this public repository. Releases are independent of Data Hub; only the HTTPS gateway is shared. Switch the `current` symlink after validation; return it to the previous release to roll back. TLS and DNS are managed outside this repository. `CNAME` controls GitHub Pages and must match the chosen domain.
 
 This site originated from [Jon Barron's academic site](https://github.com/jonbarron/jonbarron.github.io); the page has been reworked while retaining the owner's supplied imagery.
+
+## Verified deployment (2026-10-09)
+
+Live at https://home.majortom314.com/ on the existing server. Five site tests and the Site checks CI passed. HTTPS HTML, images and styles were inspected; a phone viewport had no horizontal overflow. The existing apex and www DNS records were preserved. This is a deployment snapshot, not continuous monitoring.
