@@ -1,0 +1,249 @@
+{
+  "reviewed": "2026-10-09",
+  "scholar": "https://scholar.google.com/citations?user=6abekesAAAAJ",
+  "publications": [
+    {
+      "id": "seed3d-2",
+      "title": "Seed3D 2.0: Advancing High-Fidelity Simulation-Ready 3D Content Generation",
+      "authors": [
+        "Diandian Gu",
+        "Jing Lin",
+        "Gaohong Liu",
+        "Jiahang Liu",
+        "Su Ma",
+        "Guang Shi",
+        "Jun Wang",
+        "Qinlong Wang",
+        "Qianyi Wu",
+        "Zhongcong Xu",
+        "Xuanyu Yi",
+        "Zihao Yu",
+        "Jianfeng Zhang",
+        "Zhuolin Zheng",
+        "Yifan Zhu",
+        "Rui Chen",
+        "Hengkai Guo",
+        "Xiaoyang Guo",
+        "Mingcong Han",
+        "Xu Han",
+        "Xiu Li",
+        "Yixun Liang",
+        "Weiqiang Lou",
+        "Junzhe Lu",
+        "Guan Luo",
+        "Minghan Qin",
+        "Shuguang Wang",
+        "Yuang Wang"
+      ],
+      "year": 2026,
+      "venue": "Technical report",
+      "summary": "A 3D generation system combining detailed geometry, unified PBR material generation, and scene and part-level capabilities for simulation-ready content.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2605.13862"
+        }
+      ],
+      "image": null,
+      "selected": true
+    },
+    {
+      "id": "seed3d-1",
+      "title": "Seed3D 1.0: From Images to High-Fidelity Simulation-Ready 3D Assets",
+      "authors": [
+        "Jiashi Feng",
+        "Xiu Li",
+        "Jing Lin",
+        "Jiahang Liu",
+        "Gaohong Liu",
+        "Weiqiang Lou",
+        "Su Ma",
+        "Guang Shi",
+        "Qinlong Wang",
+        "Jun Wang",
+        "Zhongcong Xu",
+        "Xuanyu Yi",
+        "Zihao Yu",
+        "Jianfeng Zhang",
+        "Yifan Zhu",
+        "Rui Chen",
+        "Jinxin Chi",
+        "Zixian Du",
+        "Li Han",
+        "Lixin Huang",
+        "Kaihua Jiang",
+        "Yuhan Li",
+        "Guan Luo",
+        "Shuguang Wang",
+        "Qianyi Wu",
+        "Fan Yang",
+        "Junyang Zhang",
+        "Xuanmeng Zhang"
+      ],
+      "year": 2025,
+      "venue": "Technical report",
+      "summary": "Single-image generation of 3D assets with geometry, aligned textures and physically based materials, designed for integration into physics-based simulation.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2510.19944"
+        }
+      ],
+      "image": "images/seed3d1_0.png",
+      "selected": true
+    },
+    {
+      "id": "rdnerf",
+      "title": "RDNeRF: Relative Depth Guided NeRF for Dense Free View Synthesis",
+      "authors": [
+        "Jiaxiong Qiu",
+        "Yifan Zhu",
+        "Peng-Tao Jiang",
+        "Ming-Ming Cheng",
+        "Bo Ren"
+      ],
+      "year": 2024,
+      "venue": "The Visual Computer",
+      "summary": "Relative depth guides geometric sampling and neural rendering to support dense, freely moving views of indoor scenes.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ren-bo.net/papers/qjx_tvcj2023_1.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/s00371-023-02863-5"
+        }
+      ],
+      "image": "images/rdnerf.jpg",
+      "selected": true
+    },
+    {
+      "id": "consistent-depth",
+      "title": "Consistent Depth Prediction for Transparent Object Reconstruction from RGB-D Camera",
+      "authors": [
+        "Yuxiang Cai",
+        "Yifan Zhu",
+        "Haiwei Zhang",
+        "Bo Ren"
+      ],
+      "year": 2023,
+      "venue": "ICCV",
+      "summary": "Stereo-based depth prediction improves consistency across RGB-D video frames, enabling reconstruction of transparent objects in synthetic and real scenes.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Cai_Consistent_Depth_Prediction_for_Transparent_Object_Reconstruction_from_RGB-D_Camera_ICCV_2023_paper.html"
+        }
+      ],
+      "image": "images/consistent.jpg",
+      "selected": true
+    },
+    {
+      "id": "glass",
+      "title": "Looking Through the Glass: Neural Surface Reconstruction Against High Specular Reflections",
+      "authors": [
+        "Jiaxiong Qiu",
+        "Peng-Tao Jiang",
+        "Yifan Zhu",
+        "Ze-Xin Yin",
+        "Ming-Ming Cheng",
+        "Bo Ren"
+      ],
+      "year": 2023,
+      "venue": "CVPR",
+      "summary": "NeuS-HSR separates target appearance from reflections with an auxiliary plane representation, improving surface reconstruction through glass.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Qiu_Looking_Through_the_Glass_Neural_Surface_Reconstruction_Against_High_Specular_CVPR_2023_paper.html"
+        }
+      ],
+      "image": "images/qjx_cvpr2023.jpg",
+      "selected": true
+    },
+    {
+      "id": "transfusion",
+      "title": "Transfusion: A Novel SLAM Method Focused on Transparent Objects",
+      "authors": [
+        "Yifan Zhu",
+        "Jiaxiong Qiu",
+        "Bo Ren"
+      ],
+      "year": 2021,
+      "venue": "ICCV",
+      "summary": "A RGB-D SLAM pipeline estimates camera motion while reconstructing transparent and opaque objects separately.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhu_Transfusion_A_Novel_SLAM_Method_Focused_on_Transparent_Objects_ICCV_2021_paper.html"
+        }
+      ],
+      "image": "images/transfution.jpg",
+      "selected": true
+    },
+    {
+      "id": "outdoor-depth",
+      "title": "Long-Range Outdoor Depth Estimation Using Perspective Information",
+      "authors": [
+        "Yifan Zhu",
+        "Bo Ren"
+      ],
+      "year": 2023,
+      "venue": "Computational Visual Media Conference",
+      "summary": "",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://iccvm.org/2023/papers/poster-9-311.pdf"
+        }
+      ],
+      "image": null,
+      "selected": false
+    },
+    {
+      "id": "solar-classification",
+      "title": "Classification of Manufacturing Defects in Multicrystalline Solar Cells with Novel Feature Descriptor",
+      "authors": [
+        "B. Su",
+        "H. Chen",
+        "Yifan Zhu",
+        "W. Liu",
+        "K. Liu"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Instrumentation and Measurement",
+      "summary": "",
+      "links": [
+        {
+          "label": "Scholar",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&user=6abekesAAAAJ&citation_for_view=6abekesAAAAJ:u5HHmVD_uO8C"
+        }
+      ],
+      "image": null,
+      "selected": false
+    },
+    {
+      "id": "solar-detection",
+      "title": "Surface Defect Detection of Solar Cells Based on Feature Pyramid Network and GA-Faster-RCNN",
+      "authors": [
+        "L. Liu",
+        "Yifan Zhu",
+        "M. R. U. Rahman",
+        "P. Zhao",
+        "Haiyong Chen"
+      ],
+      "year": 2019,
+      "venue": "China Symposium on Cognitive Computing and Hybrid Intelligence",
+      "summary": "",
+      "links": [
+        {
+          "label": "Scholar",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&user=6abekesAAAAJ&citation_for_view=6abekesAAAAJ:u-x6o8ySG0sC"
+        }
+      ],
+      "image": null,
+      "selected": false
+    }
+  ]
+}
