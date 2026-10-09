@@ -45,7 +45,26 @@
         }
       ],
       "image": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymo754zx7.png",
-      "selected": true
+      "selected": true,
+      "core_contributors": [
+        "Diandian Gu",
+        "Jing Lin",
+        "Gaohong Liu",
+        "Jiahang Liu",
+        "Su Ma",
+        "Guang Shi",
+        "Jun Wang",
+        "Qinlong Wang",
+        "Qianyi Wu",
+        "Zhongcong Xu",
+        "Xuanyu Yi",
+        "Zihao Yu",
+        "Jianfeng Zhang",
+        "Zhuolin Zheng",
+        "Yifan Zhu"
+      ],
+      "contributor_order": "alphabetical by last name",
+      "contributor_source": "https://arxiv.org/html/2605.13862#A1"
     },
     {
       "id": "seed3d-1",
@@ -90,7 +109,26 @@
         }
       ],
       "image": "images/seed3d1_0.png",
-      "selected": true
+      "selected": true,
+      "core_contributors": [
+        "Jiashi Feng",
+        "Xiu Li",
+        "Jing Lin",
+        "Jiahang Liu",
+        "Gaohong Liu",
+        "Weiqiang Lou",
+        "Su Ma",
+        "Guang Shi",
+        "Qinlong Wang",
+        "Jun Wang",
+        "Zhongcong Xu",
+        "Xuanyu Yi",
+        "Zihao Yu",
+        "Jianfeng Zhang",
+        "Yifan Zhu"
+      ],
+      "contributor_order": "alphabetical by last name",
+      "contributor_source": "https://arxiv.org/html/2510.19944#A1"
     },
     {
       "id": "rdnerf",

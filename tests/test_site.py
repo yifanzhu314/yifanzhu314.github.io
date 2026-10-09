@@ -17,6 +17,16 @@ class SiteTests(unittest.TestCase):
  def test_seed_metadata_and_author_position(self):
   ps={p['id']:p for p in json.loads((ROOT/'data/publications.json').read_text())['publications']}
   self.assertTrue(ps['seed3d-1']['title'].startswith('Seed3D 1.0:'));self.assertNotEqual(ps['seed3d-1']['authors'][0],'Yifan Zhu');self.assertEqual(ps['seed3d-2']['year'],2026)
+ def test_reports_display_only_core_contributors(self):
+  ps=json.loads((ROOT/'data/publications.json').read_text())['publications'];s=render()
+  for p in ps:
+   if p['id'] not in ('seed3d-1','seed3d-2'):continue
+   core=p['core_contributors'];self.assertEqual(len(core),15);self.assertEqual(core,p['authors'][:15]);self.assertIn('Yifan Zhu',core)
+   section=s.split('id="'+p['id']+'"',1)[1].split('</article>',1)[0]
+   self.assertIn('Core contributors · alphabetical by last name',section)
+   for a in core:self.assertIn(a,section)
+   for a in p['authors'][15:]:self.assertNotIn(a,section)
+   surnames=[a.rsplit(' ',1)[-1] for a in core];self.assertEqual(surnames,sorted(surnames))
  def test_assets_and_anchors_exist(self):
   parser=Links();parser.feed(render())
   for ref in parser.refs:
