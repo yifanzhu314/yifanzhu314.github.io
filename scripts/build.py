@@ -11,8 +11,7 @@ def render():
  data=json.loads((ROOT/'data/publications.json').read_text());cards=[];other=[]
  for p in data['publications']:
   links=''.join(f'<a href="{esc(x["url"])}">{esc(x["label"])} ↗</a>' for x in p['links'])
-  if not p['selected']:
-   other.append(f'<li><span class="year">{p["year"]}</span><div><a href="{esc(p["links"][0]["url"])}">{esc(p["title"])}</a><p class="authors">{authors(p["authors"])}</p><p class="venue">{esc(p["venue"])}</p></div></li>');continue
+  if not p['selected']:continue
   visual=(f'<img src="{esc(p["image"])}" alt="{esc(p["title"])} — research illustration" loading="lazy">' if p.get('image') else '<div class="type-art"><span>SEED</span><b>3D 2.0</b><small>GEOMETRY · MATERIALS · SIMULATION</small></div>')
   cards.append(f'<article class="publication" id="{esc(p["id"])}"><div class="paper-art">{visual}</div><div class="paper-copy"><p class="eyebrow">{esc(p["venue"])} · {p["year"]}</p><h3><a href="{esc(p["links"][0]["url"])}">{esc(p["title"])}</a></h3>{author_block(p["authors"])}<p class="summary">{esc(p["summary"])}</p><div class="paper-links">{links}</div></div></article>')
  return (ROOT/'data/page.html').read_text().replace('{{PUBLICATIONS}}','\n'.join(cards)).replace('{{OTHER}}','\n'.join(other))

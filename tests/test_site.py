@@ -22,6 +22,12 @@ class SiteTests(unittest.TestCase):
   for ref in parser.refs:
    if ref.startswith('#') and len(ref)>1:self.assertIn(ref[1:],parser.ids)
    elif not ref.startswith(('https://','mailto:','#')):self.assertTrue((ROOT/ref).is_file(),ref)
+ def test_compact_homepage_content(self):
+  s=render();self.assertEqual(s.count('<article '),6)
+  self.assertLess(s.index("master's degree"),s.index('Selected research'))
+  self.assertIn('I work on 3D generation at ByteDance.',s)
+  for phrase in ('From understanding the world','EARLIER &amp; ADDITIONAL WORK','My earlier work','<nav','mailto:','Long-Range Outdoor','Manufacturing Defects','Surface Defect Detection'):self.assertNotIn(phrase,s)
+  self.assertIn('4og2ymo754zx7.png',s)
  def test_generated_html_is_current(self):self.assertEqual((ROOT/'index.html').read_text(),render())
  def test_no_fake_video_or_template_identity(self):
   s=render();self.assertNotIn('<video',s);self.assertNotIn('jonbarron.info',s);self.assertNotIn('seed3d1_0_stop',s);self.assertNotIn('{{',s)

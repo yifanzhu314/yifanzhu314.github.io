@@ -13,7 +13,7 @@ Use a regular Python interpreter if macOS's system Python asks for Xcode setup. 
 
 ## Content verification
 
-Reviewed on 2026-10-09 against the owner's [Scholar profile](https://scholar.google.com/citations?user=6abekesAAAAJ) and primary sources linked on the page. Nine distinct works are included; supplementary material is not counted as a separate paper. Author order follows arXiv/CVF for selected works. Team papers list all authors and do not imply first authorship or a particular personal role. Older Scholar records retain initials where names were not established. Citation counts are omitted rather than presented as live statistics.
+Reviewed on 2026-10-09 against the owner's [Scholar profile](https://scholar.google.com/citations?user=6abekesAAAAJ) and primary sources linked on the page. Nine distinct works are stored; six selected works are displayed; supplementary material is not counted as a separate paper. Author order follows arXiv/CVF for selected works. Team papers list all authors and do not imply first authorship or a particular personal role. Older Scholar records retain initials where names were not established. Citation counts are omitted rather than presented as live statistics.
 
 Primary sources: [Seed3D 1.0](https://arxiv.org/abs/2510.19944), [Seed3D 2.0](https://arxiv.org/abs/2605.13862), [CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Qiu_Looking_Through_the_Glass_Neural_Surface_Reconstruction_Against_High_Specular_CVPR_2023_paper.html), [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/html/Cai_Consistent_Depth_Prediction_for_Transparent_Object_Reconstruction_from_RGB-D_Camera_ICCV_2023_paper.html), [ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/html/Zhu_Transfusion_A_Novel_SLAM_Method_Focused_on_Transparent_Objects_ICCV_2021_paper.html), [RDNeRF](https://ren-bo.net/papers/qjx_tvcj2023_1.pdf), [CVM 2023](https://iccvm.org/2023/papers/poster-9-311.pdf).
 
@@ -26,3 +26,7 @@ This site originated from [Jon Barron's academic site](https://github.com/jonbar
 ## Verified deployment (2026-10-09)
 
 Live at https://home.majortom314.com/ on the existing server. Five site tests and the Site checks CI passed. HTTPS HTML, images and styles were inspected; a phone viewport had no horizontal overflow. The existing apex and www DNS records were preserved. This is a deployment snapshot, not continuous monitoring.
+
+## Compact presentation (2026-10-10)
+
+The introduction includes education and current 3D generation work. Navigation, contact buttons, research-direction slogans and additional-work lists are omitted. Seed3D 2.0 uses the cover image from the [official project page](https://seed.bytedance.com/zh/seed3d_2_0), served from the official image CDN; its availability depends on that source. The portrait is 112 pixels on desktop and smaller on phones.
